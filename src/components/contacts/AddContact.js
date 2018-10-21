@@ -71,7 +71,7 @@ class AddContact extends Component {
               <div className="card-body">
                 <form onSubmit={this.onSubmit.bind(this, dispatch)}>
                   <TextInputGroup
-                    label="name"
+                    label="Name:"
                     name="name"
                     placeholder="Enter Name"
                     value={name}
@@ -79,7 +79,7 @@ class AddContact extends Component {
                     error={errors.name}
                   />
                   <TextInputGroup
-                    label="email"
+                    label="Email:"
                     name="email"
                     type="email"
                     placeholder="Enter Email"
@@ -88,7 +88,7 @@ class AddContact extends Component {
                     error={errors.email}
                   />
                   <TextInputGroup
-                    label="phone"
+                    label="Phone:"
                     name="phone"
                     placeholder="Enter Phone"
                     value={phone}
@@ -98,7 +98,7 @@ class AddContact extends Component {
                   <input 
                     type="submit" 
                     value="Add Contact" 
-                    className="btn btn-outline-danger btn-block" 
+                    className="btn addBtn btn-block" 
                   />
                 </form>
               </div>

@@ -1,0 +1,31 @@
+.App {
+  background-color: #9BB3A5;
+  height: 100%;
+}
+
+.navbar {
+  background-color: #3B393B;
+}
+
+.nav-link, .navbar-brand {
+  color: #EFF3F2;
+}
+
+.headerContactSpan {
+  color: #EFF3F2;
+}
+
+.card-header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom-color: black;  
+}
+
+.addBtn, .editBtn {
+  background-color: #9BB3A5;
+}
+
+.card-body {
+  background-color: #EFF3F2;
+}

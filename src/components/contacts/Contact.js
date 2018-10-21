@@ -59,8 +59,8 @@ class Contact extends Component {
 
               </h4>
               {showContactInfo ? (<ul className="list-group">
-                <li className="list-group-item">Email: {email}</li>
-                <li className="list-group-item">Phone: {phone}</li>
+                <li className="list-group-item"><strong>Email: </strong>{email}</li>
+                <li className="list-group-item"><strong>Phone: </strong>{phone}</li>
               </ul>) : null}
             </div>
           )
